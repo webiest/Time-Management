@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+*.suo
+bin/
+obj/
+UpgradeLog.XML
+_UpgradeReport_Files/
+=======
+*.exe
+*.pdb
+*.manifest
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+AnAppADay.TimeManagement.WinApp/TimeReporting.xlsx
+>>>>>>> 51877d2... ignore

@@ -1,14 +1,5 @@
-Time Management by Dana Hanna allows you to keep track of what you are doing on your PC. 
-I plan on using it to help me fill out my timesheet at the office. 
-The application resides in the systray, and writes to a CSV file each 
-time you switch applications, or the title bar of the current app changes.
-
-File format:
-[date],[time],[process name],[window title],[duration used]
-
-There is no built in reporting capability, but a simple Excel pivot table produces a 
-spectacular table and chart. I'd assume Open Office has a similar feature.
-
-Compiled exe is available in the downloads section.
-
-"Thx for a great app! I am a computer techncian and have put it on my U3 Flash Drive. Now if a customer has a virus or any software issue I plug in my thumbdrive start Time Management (optionally I can have it start on insertion). Now I go about resolving the issue. When I am done I have a record of not only the amount of time spent but also a log showing the utilities I ran to resolve the issue. The only downside I have with this setup so far is I have to dig through the Application Data directory to find the csv file? I am not a developer but plan to have one look at the source for me... I just really wanted to tell you the cool ways I am using this app! Keep up the good work!"
+Time Management, originally by Dana Hanna, tracks how much time you spend on each application
+on your PC.  The application resides in the systray, and writes to a SQLite db file each time
+you switch applications, or the title bar of the current app changes.  From this, the
+application creates a report of how much time you've spent during the day on titled
+applications.
